@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    height: 100vh;
+    background: rgb(11, 223, 64);
+    background: #000000;
+}
+video{
+    object-fit: cover;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 5em;
+    letter-spacing: -.1em;
+}
+h2 span{
+    opacity: 0;
+    display: inline-block;
+    filter: blur(1px);
+    animation: animate 1s linear forwards;
+    margin:auto 0;
+}
+@keyframes animate{
+    0%{
+        filter: blur(10px);
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+    100%{
+        filter: blur(0);
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+h2 span:nth-child(1){
+    animation-delay:1s;
+}
+h2 span:nth-child(2){
+    animation-delay:1.5s;
+}
+h2 span:nth-child(3){
+    animation-delay: 2s;
+}
+h2 span:nth-child(4){
+    animation-delay:2.25s;
+}
+h2 span:nth-child(5){
+    animation-delay:2.5s;
+}
+h2 span:nth-child(6){
+    animation-delay:2.75s;
+}
+h2 span:nth-child(7){
+    animation-delay:3s;
+}
+h2 span:nth-child(8){
+    animation-delay:3.25s;
+}
+h2 span:nth-child(9){
+    animation-delay:3.5s;
+}
+h2 span:nth-child(10){
+    animation-delay:3.75s;
+}
+h2 span:nth-child(11){
+    animation-delay:4s;
+}
+h2 span:nth-child(12){
+    animation-delay:4.25s;
+}
+h2 span:nth-child(13){
+    animation-delay:4.5s;
+}
+h2 span:nth-child(14){
+    animation-delay:4.75s;
+}
+h2 span:nth-child(15){
+    animation-delay:5s;
+}
+h2 span:nth-child(16){
+    animation-delay:5.25s;
+}
+h2 span:nth-child(17){
+    animation-delay:5.5s;
+}
+h2 span:nth-child(18){
+    animation-delay:5.75s;
+}
+h2 span:nth-child(19){
+    animation-delay:6s;
+}
+h2 span:nth-child(20){
+    animation-delay:6.25s;
+}
+h2 span:nth-child(21){
+    animation-delay:6.5s;
+}
+h2 span:nth-child(22){
+    animation-delay:6.75s;
+}
+h2 span:nth-child(23){
+    animation-delay:7s;
+}
+h2 span:nth-child(24){
+    animation-delay:7.25s;
+}
+h2 span:nth-child(25){
+    animation-delay:7.5s;
+}
+h2 span:nth-child(26){
+    animation-delay:7.75s;
+}
+h2 span:nth-child(27){
+    animation-delay:8s;
+}
+
+section:after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f00, rgb(226, 16, 191), #00f, #ff0, #0ff);
+    mix-blend-mode: color;
+    pointer-events: none;
+}
+
